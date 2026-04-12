@@ -14,7 +14,7 @@ Explain whether each scenario is a **classification or regression** problem, and
 
 **(a)**  We collect data on 200 protected marine reserves worldwide. For each reserve we record species richness, reserve size, years since establishment, enforcement budget, and proximity to human settlements. We are interested in understanding which factors affect species richness.
 
-> This is a classification problem because we are attempting to determine **which** factors affect species richness from the list of variables. This is an inference question because we are attempting to understand what factors influence species richness in 200 protected marine reserves worldwide. The observation dataset is 200 and the number of predictors is 4 (reserve size, years since establishment, enforcement budget, and proximity to human settlements).
+> This is a regression problem because we are attempting to determine factors that affect species richness which is a numerical outcome. This is an inference question because we are attempting to understand what factors influence species richness in 200 protected marine reserves worldwide. The observation dataset is 200 and the number of predictors is 4 (reserve size, years since establishment, enforcement budget, and proximity to human settlements).
 
 ---
 
@@ -26,7 +26,7 @@ Explain whether each scenario is a **classification or regression** problem, and
 
 **(c)** We are interested in predicting weekly average ground-level ozone concentration in a coastal city. We collect weekly data for all of 2019. For each week we record average ozone concentration, sea surface temperature, wind speed, solar radiation, and atmospheric
 
-> This is a regression problem because the question is asking for a correlation between the weekly average ground-level ozone concentration in a coastal city and the given variables. This is a prediction question because this is based on 2019 data presumably being used to predict present and future weekly average ground-level ozone concentration in a coastal city. The size of the observation dataset is the number of weeks in 2019, 52, and the number of predictors is 4 (sea surface temperature, wind speed, solar radiation, and atmospheric). 
+> This is a regression problem because the question is asking for a correlation between the weekly average ground-level ozone concentration in a coastal city and the given variables. The outcome is numeric. This is a prediction question because this is based on 2019 data presumably being used to predict present and future weekly average ground-level ozone concentration in a coastal city. The size of the observation dataset is the number of weeks in 2019, 52, and the number of predictors is 4 (sea surface temperature, wind speed, solar radiation, and atmospheric). 
 
 ---
 
